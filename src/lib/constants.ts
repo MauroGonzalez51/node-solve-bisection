@@ -1,0 +1,4 @@
+const MINIMUM_ERROR_PERMITED: number = 10e-5;
+const RANGE = 1000;
+
+export { MINIMUM_ERROR_PERMITED, RANGE };
