@@ -1,22 +1,18 @@
 # Bisection Method
 
-Simple implementation of the bisection method using Typescript
+This repository contains a simple implementation of the bisection method using TypeScript.
 
-## How to use it
+## How to Use
 
-1. Clone the repository
-2. Search for _src/utils/evalFunction.ts_
-3. Modify the **Return value** with your own function
+1. Clone the repository.
+2. Navigate to _src/utils/evalFunction.ts_.
+3. Modify the **Return value** with your own function.
 
-**OPTIONAL:**
-You can also change the range in which the values are generated for the
-first iteration.
+    **OPTIONAL:**
+    You can also customize the range for the initial iteration and set the minimum required error for the script to terminate (using scientific notation is recommended).
 
-And also the minimun required error for the script to end (make sure to use cientific notation).
+    To make these changes, locate _src/lib/constants.ts_ and modify the values accordingly.
 
-Search for *src/lib/constants.ts* and modify those values however you like.
+4. Run the script using _npm run start_.
 
-4. Run the script using *npm run start*
-
-At the end you will see and object printed to the console, being x, the result, and 
-currentError, just, the current error of the operation.
+Upon completion, an object will be printed to the console, with 'x' representing the result and 'currentError' indicating the current error of the operation.
